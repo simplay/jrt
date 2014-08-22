@@ -10,6 +10,7 @@ public class App {
 			if(concatinateStrings(args).replaceFirst(formatPattern, "").length() != 0) {
 				throw new Exception("wrong input pattern");
 			}
+
 			
 			safeIntAssignment(args, "-w", width);
 			safeIntAssignment(args, "-h", height);
